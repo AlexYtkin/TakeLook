@@ -1,0 +1,255 @@
+
+
+.main_rectangle{
+    height: auto;
+    width: 100%;
+    max-width: 720px;
+    background-image: url("./images/Rectangle.jpg");
+}
+.announcement{
+    position: absolute;
+    width: 665px;
+    height: 89px;
+    left: 390px;
+    top: 386px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #FFFFFF;
+}
+.price_rectangle{
+    position: absolute;
+    width: 224px;
+    height: 96px;
+    left: 614px;
+    top: 504px;
+
+    background: #FF1B63;
+    background-image: url("./images/Rectangle 6.2.png");
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.balloon_flight_heading{
+    position: absolute;
+    width: 443px;
+    height: 90px;
+    left: 391px;
+    top: 1010px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #37373F;
+}
+.balloon_flight_paragraph{
+    position: absolute;
+    width: 549px;
+    height: 73px;
+    left: 391px;
+    top: 1118px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #37373F;
+}
+.clock_icon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 391px;
+    top: 1218px;
+}
+.camera_icon{
+        position: absolute;
+        width: 35px;
+        height: 28px;
+        left: 391px;
+        top: 1265px;
+    }
+.map_pin_market_icon{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 391px;
+    top: 1309px;
+}
+.speech_bubble_icon{
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 391px;
+    top: 1358px;
+}
+.hours_of_shooting_paragraph{
+    position: absolute;
+    width: 186px;
+    height: 20px;
+    left: 434px;
+    top: 1226px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #37373F;
+}
+.more_photos_paragraph{
+    position: absolute;
+    width: 186px;
+    height: 20px;
+    left: 434px;
+    top: 1273px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #37373F;
+}
+.city_paragraph{
+    position: absolute;
+    width: 54px;
+    height: 20px;
+    left: 434px;
+    top: 1319px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #37373F;
+}
+.language_paragraph{
+    position: absolute;
+    width: 82px;
+    height: 20px;
+    left: 434px;
+    top: 1364px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #37373F;
+}
+.image_main_block{
+    position: absolute;
+    width: 557px;
+    height: 374px;
+    left: 974px;
+    top: 1010px;
+
+    border-radius: 3px;
+}
+.first_star_icon{
+    position: absolute;
+    width: 9.1px;
+    height: 8.73px;
+    left: 392px;
+    top: 1446.64px;
+}
+.second_star_icon{
+    position: absolute;
+    width: 11.56px;
+    height: 11.07px;
+    left: 402.22px;
+    top: 1443px;
+}
+.third_star_icon{
+    position: absolute;
+    width: 9.1px;
+    height: 8.73px;
+    left: 414.9px;
+    top: 1446.64px;
+}
+.review_icon{
+    position: absolute;
+    width: 27.36px;
+    height: 22.98px;
+    left: 394.32px;
+    top: 1455.82px;
+}
+.assessment_paragraph{
+    position: absolute;
+    width: 268px;
+    height: 24px;
+    left: 434px;
+    top: 1455px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #37373F;
+}
+.make_place_button{
+    position: absolute;
+    width: 304px;
+    height: 68px;
+    left: 390px;
+    top: 612px;
+
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 70px rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+}
+.make_place_modal{
+    position: absolute;
+    width: 615px;
+    height: 887px;
+    left: 714px;
+    top: 356px;
+}
+.make_place_modal_title{
+    text-align: center;
+
+    color: #37373F;
+}
+.make_button{
+    position: center;
+    width: 300px;
+    height: 20px;
+
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 70px rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+}
+.make_checkbox{
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 70px rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+}
+.specialist_block{
+
+}
+.package_photos_header{
+    position: absolute;
+    left: 391px;
+    top: 1540px;
+}
+
