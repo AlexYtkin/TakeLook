@@ -1,10 +1,10 @@
 import React from "react";
-import './../../../style.css';
+import "./../../../style.css";
 
 const PackagePhotos = ({images}) => {
   const image = images.map((imag, i)=>{
     return(
-        <img key={i} src={imag}/>
+        <img key={i} src={imag.url_original} className="package_photos_galery"/>
     );
   });
   return(

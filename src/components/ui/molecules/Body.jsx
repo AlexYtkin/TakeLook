@@ -1,20 +1,23 @@
-import React, { useState } from 'react';
-import '../../../style.css';
-import clock from '../../../images/clock.svg';
-import camera from '../../../images/camera.svg';
-import mapPinMarked from '../../../images/map-pin-marked.svg';
-import speechBubble from '../../../images/speech-bubble.svg';
-import imageMainBlock from '../../../images/image_main_block.jpg';
-import starIcon from '../../../images/star.png';
-import review from '../../../images/review.png';
+import React, { useState } from "react";
+import "../../../style.css";
+import clock from "../../../images/clock.svg";
+import camera from "../../../images/camera.svg";
+import mapPinMarked from "../../../images/map-pin-marked.svg";
+import speechBubble from "../../../images/speech-bubble.svg";
+import imageMainBlock from "../../../images/image_main_block.jpg";
+import starIcon from "../../../images/star.png";
+import review from "../../../images/review.png";
 import {Button} from "react-bootstrap";
-import MakePlaceModal from './MakePlaceModal';
+import MakePlaceModal from "./MakePlaceModal";
 
 
 const Body = () => {
   const [isShow, setIsShow] = useState(false);
-  function handleShowModal() {
+  const handleShowModal = () => {
     setIsShow(true)
+  }
+  const handleHideModal = () => {
+    setIsShow(false)
   }
   return(
       <div className="container-fluid">
@@ -25,6 +28,7 @@ const Body = () => {
           </div>
             <MakePlaceModal
                 show={isShow}
+                onHide={handleHideModal}
             />
             <Button className="make_place_button" onClick={handleShowModal}>Забронировать место</Button>
         </div>
